@@ -1,0 +1,38 @@
+void main()
+{
+  var a=10;
+  var b=5;
+  
+  final ad=Sa(a:a,b:b);
+  print(ad.add());
+  print(ad.sub());
+  print(ad.div());
+  print(ad.mul());
+  print(ad.avg());
+  
+}
+class Sa{
+  Sa({this.a,this.b});
+  var a,b,c;
+  String add(){
+  c=a+b;
+  return 'sum=$c';
+  }
+  String sub(){
+    c=a-b;
+    return 'diff=$c';
+  }
+  String div(){
+  c=a/b;
+return 'rem=$c';
+  }
+  String mul(){
+    c=a*b;
+    return 'product=$c';
+  }
+  String avg(){
+    c=(a+b)/2;
+    return 'avg=$c';
+  }
+}
+
