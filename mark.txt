@@ -1,0 +1,14 @@
+ void main(){
+   mark(40);
+ void mark(a)
+ {
+   if(a>=60)
+     print('GRADE A');
+   else if(a>=50)
+     print('GRADE B');
+   else if(a>=40)
+     print('GRADE C');
+   else
+     print('FAIL');
+    
+ }
